@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import  { Component } from 'react';
 import './Timer.css'; // Importe o arquivo CSS
 import Example from './Modal';
 
