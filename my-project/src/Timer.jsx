@@ -44,7 +44,7 @@ class Timer extends Component {
   render() {
     const { days, hours, minutes, seconds, isTimeUp } = this.state;
     return (
-      <div className="timer-container text-red-500 p-24 text-2xl sm:text-5xl ">
+      <div className="timer-container text-red-600 p-24 text-2xl sm:text-5xl ">
         {!isTimeUp ? ( // Verifica se o tempo não acabou
           <>
             <span className='text-white font-black p-2'>{days}</span> Dias&nbsp;
