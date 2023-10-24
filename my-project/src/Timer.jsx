@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Timer.css'; // Importe o arquivo CSS
-import Lari from './Lari';
+import Example from './Modal';
 
 class Timer extends Component {
   constructor(props) {
@@ -23,7 +23,7 @@ class Timer extends Component {
   }
 
   updateTime = () => {
-    const targetDate = new Date('2023-10-25 23:59:59'); // Substitua esta data pela data desejada
+    const targetDate = new Date('2023-10-24 23:59:59'); // Substitua esta data pela data desejada
     const currentDate = new Date();
     const timeDifference = targetDate - currentDate;
 
@@ -54,7 +54,7 @@ class Timer extends Component {
           </>
         ) : (
           <div className='text-white font-bold text-5xl'>
-            <Lari />
+            <Example />
           </div>
         )}
       </div>

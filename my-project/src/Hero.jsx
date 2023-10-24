@@ -1,6 +1,6 @@
-import React from 'react'
+
 import Timer from './Timer'
-import { Spotify } from 'react-spotify-embed'
+
 function Hero() {
   return (
     <div className='bg-black'>
