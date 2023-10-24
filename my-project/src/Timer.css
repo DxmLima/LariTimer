@@ -1,0 +1,13 @@
+.timer-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 18px;
+  }
+  
+  .timer-container span {
+    margin-right: 5px;
+  }
+  
+  /* Adicione regras de estilo específicas para dispositivos móveis, se necessário */
+  
